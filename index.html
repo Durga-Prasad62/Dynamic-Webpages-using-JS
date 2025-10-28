@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserting JS</title>
+</head>
+<body>
+    <script src="index.js">
+        var name ="prasad"
+        console.log(name)
+        document.write(name)
+        // difference between var let const
+        // in var we can do  reassignment and declaration 
+        var fruits ="apples"  // Intialization
+        var fruits; // declaration
+        fruits = "banana" // re assiagnemt
+        document.write(fruits)
+        console.log(fruits)
+        // let reassignment is possible but redeclartion is not possible
+        let city ="hyderabad"
+        city="mumbai"
+        console.log(city)   // REASSIGN OK 
+        // let city ="jamshedpur" error  redeclaration not possible
+        const pie = 3.14
+         document.write(pie)
+         console.log(pie)
+         pie=3.45
+         document.write(pie)
+         //redeclaration And Reassignment is not possible
+        //  pie=123.5
+        //  document.write(pie)
+        //  const pie =3.54
+        //   document.write(pie)
+    </script>
+</body>
+</html>
