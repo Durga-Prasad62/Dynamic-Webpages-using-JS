@@ -246,7 +246,7 @@ console.log(typeof null);
 //  C) 1 undefined undefined
 //  D) Error
 //  📝 var is function-scoped; let and const are block-scoped.
-// A
+// B
 
 // 5️⃣
 // console.log(a);
