@@ -15,3 +15,8 @@ value =135
 console.log(value)// Reassignment not Possible
 // const value =1234
 console.log(value)//Redeclaration is not possible
+let name3 = "keys"
+document.write(name3)
+var city ="hyderabad"
+document.write(city)
+console.log("hello")
